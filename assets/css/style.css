@@ -1,0 +1,55 @@
+body {
+      color: rgb(206, 247, 59);
+      font-family: 'Concert One', cursive;
+      align-content: center;          
+      /* font-size: 1.4em; */
+      text-align:center;
+      vertical-align:center;
+      line-height: 20px;  
+}
+
+.center {      
+      width: 960px;
+      height: 1024px;
+      padding-top: 20px;
+      background-image: url(file:///Users/shannonruder/Desktop/bootcamp/code/Psychic-Game/Psychic-Game/assets/images/zelda_the_psychic.jpg);
+      background-repeat: no-repeat;
+    }
+
+
+.container {
+      display: flex;
+      justify-content: center;
+      background-color: black;
+
+  }
+
+
+  .wrapper {
+    padding-left: 130px;
+  }
+
+
+    #won {
+      color: rgb(255, 68, 218);
+      font-size: 1.5em;
+    }
+
+    #lost {
+      color: #ff9900;
+      font-size: 1.5em;
+    }
+
+    #attempts {
+      color: rgb(16, 231, 255);
+      font-size: 1.2em;
+    }
+
+    #chosenLetter {
+      color: rgb(34, 255, 0);
+      font-size: 1.5em;
+    }
+
+    h1 {
+      font-size: 1em;
+    }
