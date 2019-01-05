@@ -1,18 +1,19 @@
 body {
+      background-color: black;
       color: rgb(206, 247, 59);
       font-family: 'Concert One', cursive;
       align-content: center;          
-      /* font-size: 1.4em; */
-      text-align:center;
-      vertical-align:center;
-      line-height: 20px;  
+      text-align: center;
+      vertical-align: center;
+      line-height: 19px;  
+      padding-top: 40px;
 }
 
 .center {      
       width: 960px;
-      height: 1024px;
-      padding-top: 20px;
-      background-image: url(file:///Users/shannonruder/Desktop/bootcamp/code/Psychic-Game/Psychic-Game/assets/images/zelda_the_psychic.jpg);
+      height: 450px;
+      background-image: url(../images/zelda_the_psychic.jpg);
+      opacity: .8;
       background-repeat: no-repeat;
     }
 
@@ -20,36 +21,84 @@ body {
 .container {
       display: flex;
       justify-content: center;
-      background-color: black;
+      align-items: center;
 
+  }
+
+  .circle1 {
+    position: absolute;
+    align-items: left;
+    margin-right: auto;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* fix for IE8 */
+    width: 100px;
+    height: 100px;
+    vertical-align:middle;
+    background: rgb(101, 14, 223);
+    border: 2px solid blue;
+  }
+  .circle2 {
+    position: relative;
+    align-items: right;
+    margin-left: auto;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* fix for IE8 */
+    width: 100px;
+    height: 100px;
+    vertical-align: center;
+    background: rgb(101, 14, 223);
+    border: 2px solid blue;
   }
 
 
   .wrapper {
-    padding-left: 130px;
+    padding-left: 10px;
   }
 
+ 
 
-    #won {
+
+    #wins {
       color: rgb(255, 68, 218);
-      font-size: 1.5em;
+      font-size: 1.7em;
     }
 
-    #lost {
+    #losses {
       color: #ff9900;
       font-size: 1.5em;
     }
 
-    #attempts {
+    #guessesLeft {
       color: rgb(16, 231, 255);
       font-size: 1.2em;
     }
 
-    #chosenLetter {
+    #let{
+    color: rgb(34, 255, 0);
+    font-size: 1.2em;
+  }
+
+    #letterToGuess {
       color: rgb(34, 255, 0);
       font-size: 1.5em;
     }
 
-    h1 {
-      font-size: 1em;
+    h3 {
+      font-size: 2em;
     }
+
+    h2,
+    p {
+      font-size: 1.3em;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+    
+  
+
+
+
+
+        
